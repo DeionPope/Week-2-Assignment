@@ -1,0 +1,128 @@
+#Header{
+    height: 25px;
+    background-image: url(Images/circuit-de-spa-francorchamps-1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: gainsboro;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000, 0 0 80px #000000;
+    }
+  }
+nav{
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow:2px 2px 20px wheat;
+    font-size:large;
+    font-weight: bolder;
+
+}
+nav > a {
+    color: gainsboro;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 22px;
+}
+nav > a:hover {
+    color: gainsboro;
+    background-color: black;
+    transition: 0.25s;
+    
+}
+img{
+    object-fit: cover;
+}
+body{
+    background-image: linear-gradient(#4b5320, black);
+    color: gainsboro;
+}
+.body{
+    padding-bottom: 1em; 
+    column-gap: 1em; 
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.body-1{
+    align-items: center;
+    padding: 10px;
+    border-style: solid;
+    border-color: wheat;
+    border-width: 5px;
+    border-radius: 5px;
+}
+.body-2{
+    padding: 10px;
+    border-style: solid;
+    border-color: wheat;
+    border-width: 5px;
+    border-radius: 5px;
+}
+table{
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+table,th,td{
+    border: 2px solid wheat;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 5px;
+}
+.WC-List{
+    border-style: solid;
+    justify-content: space-around;
+    border-radius: 5px;
+    border-collapse: collapse;
+    column-count: 3;
+    margin: 1em;
+    justify-content: center;
+    text-align: center;
+    border-color: wheat;
+    border-width: 5px;
+}
+.form{
+    border-color: wheat;
+    border-style: dashed;
+    width: 17em;
+    accent-color: BLACK;
+    text-align: left;
+}
+.max-form{
+    border-color: wheat;
+    border-style: dashed;
+    width: 37em;
+    accent-color: BLACK;
+    text-align: left;
+    column-count: 3;
+}
+#submit{
+    box-shadow:  1px 1px 5px;
+
+    background-color: #4b5320;
+    color: wheat;
+    text-align: left;
+}
+.List{
+    text-align: left;
+}
+.LM-Photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input-box{
+    background-color: transparent;
+    color: wheat;
+}
