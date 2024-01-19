@@ -1,4 +1,9 @@
-#Header{
+ @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
+.kiwi-font{
+    font-family: 'Kiwi Maru', serif;
+}
+
+.Header{
     height: 25px;
     background-image: url(Images/circuit-de-spa-francorchamps-1.jpg);
     background-size: cover;
@@ -48,21 +53,18 @@ body{
 }
 .body{
     padding-bottom: 1em; 
-    column-gap: 1em; 
-    display: flex;
+    gap: 1rem; 
+    display: flex; 
     text-align: center;
-    justify-content: space-around;
 }
 .body-1{
     align-items: center;
-    padding: 10px;
     border-style: solid;
     border-color: wheat;
     border-width: 5px;
     border-radius: 5px;
 }
 .body-2{
-    padding: 10px;
     border-style: solid;
     border-color: wheat;
     border-width: 5px;
@@ -99,7 +101,7 @@ table,th,td{
     accent-color: BLACK;
     text-align: left;
 }
-.max-form{
+#max-form{
     border-color: wheat;
     border-style: dashed;
     width: 37em;
